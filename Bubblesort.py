@@ -9,6 +9,12 @@ def bubbleSort(a):
     return a  
 """
 
+"""
+
+there is somthing wrong @ Michael Schmidt
+
+"""
+
 def bubbleSort(a):
     for passnum in range(len(a)-1,0,-1):
         for i in range(passnum):
