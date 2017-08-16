@@ -14,6 +14,12 @@ def bubbleSort(a):
 there is somthing wrong @ Michael Schmidt
 
 """
+#there is somthing wrong @ Michael Schmidt
+# this is also how to make make comments use the # 
+# Im getign an error say that there is a problem with indexing 
+# I dont think you need to return alist ?  
+
+# try this 
 
 def bubbleSort(a):
     for passnum in range(len(a)-1,0,-1):
@@ -22,8 +28,9 @@ def bubbleSort(a):
                 temp = a[i]
                 a[i] = a[i+1]
                 a[i+1] = temp 
-    return alist
+
 
 alist = [0, 1, 6, 2, 4, 14, 9, 13]
-alist2 = bubbleSort(alist)
-print(alist2)
+bubbleSort(alist)
+print(alist)
+
